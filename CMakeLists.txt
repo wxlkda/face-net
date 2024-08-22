@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(FaceNetCpp)
 
 set(CMAKE_CXX_STANDARD 14)
-set(TENSORFLOW_DIR "~/tensorflow")
+set(TENSORFLOW_DIR "~/tensorflow") # tf path depends. Mine was at home (in linux)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
